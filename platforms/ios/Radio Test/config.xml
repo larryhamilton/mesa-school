@@ -33,9 +33,9 @@
     </feature>
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarStyle" value="lightcontent" />
-    <name>Radio</name>
+    <name>Radio Test</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        This is a test of the Radio app plus pulling news articles.
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team

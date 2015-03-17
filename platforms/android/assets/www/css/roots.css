@@ -448,7 +448,7 @@ map.fullscreen {
 }
 #btn-play {
   display: block;
-  margin: 15px auto!important;
+  margin: 15px auto 0!important;
   text-align: center;
   width: 100px;
   height: 100px;
