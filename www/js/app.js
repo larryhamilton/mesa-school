@@ -262,7 +262,8 @@
     $scope.lastFMKey = 'e3343637ee292e488adf1e92bceb3a4f';
     $scope.lastFM = 'http://ws.audioscrobbler.com/2.0/?method=track.search&format=json&limit=1&api_key='+$scope.lastFMKey+'&track=';
 
-    $scope.radioURL = $scope.radioHost+':'+$scope.radioPort+'/;';
+    $scope.radioURL = '13.bteradio.com:9090/963xke';
+//    $scope.radioURL = $scope.radioHost+':'+$scope.radioPort+'/;';
     $scope.buttonIcon = '<span class="ion-ios-play"></span>';
 
     $scope.radioOptions = {
