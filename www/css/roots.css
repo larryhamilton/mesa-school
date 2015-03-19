@@ -868,8 +868,8 @@ img.bg {
 }
 .app-page .list--locations .thumbnail,
 .app-page .list--news .thumbnail {
-  width: 80px;
-  height: 80px;
+  width: 160px;
+  height: 106px;
   border-radius: 4px;
 }
 .app-page .list--locations .name,
