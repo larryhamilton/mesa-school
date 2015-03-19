@@ -257,12 +257,12 @@
 
   app.controller('radioController', function($scope, $sce, ngAudio){
     
-    $scope.radioHost = '108.163.223.242:8139/stream'; // Replace this with your own radio stream URL
+    $scope.radioHost = 'http://108.163.223.242:8139/stream'; // Replace this with your own radio stream URL
     $scope.radioPort = '8139'; // Replace this with the port of your Radio Stream
     $scope.lastFMKey = 'e3343637ee292e488adf1e92bceb3a4f';
     $scope.lastFM = 'http://ws.audioscrobbler.com/2.0/?method=track.search&format=json&limit=1&api_key='+$scope.lastFMKey+'&track=';
 
-    $scope.radioURL = '108.163.223.242:8139/stream';
+    $scope.radioURL = 'http://108.163.223.242:8139/stream';
 //    $scope.radioURL = $scope.radioHost+':'+$scope.radioPort+'/;';
     $scope.buttonIcon = '<span class="ion-ios-play"></span>';
 
