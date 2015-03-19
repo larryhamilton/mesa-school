@@ -1,4 +1,4 @@
-<ons-navigator animation="slide" var="news">  
+<ons-navigator animation="slide" var="news">
   <ons-page>
     <ons-toolbar>
       <div class="left">
@@ -12,7 +12,7 @@
 
         <ons-list-item modifier="chevron" class="list-item-container" ng-repeat="item in items track by $index" ng-click="showPost($index)">
           <ons-row>
-            <ons-col width="95px">
+            <ons-col width="160px">
               <div class="thumbnail-box is-loading" images-loaded="imgLoadedEvents">
                 <img ng-show="{{ item.thumbnail_images }}" ng-src="{{ item.thumbnail_images.thumbnail.url }}" class="thumbnail" img-cache>
               </div>
@@ -22,7 +22,7 @@
                 {{ item.title }}
               </div>
               <div class="desc">
-                {{ item.excerpt | htmlToPlaintext | limitTo: 100 }}...                
+                {{ item.excerpt | htmlToPlaintext | limitTo: 100 }}...
               </div>
             </ons-col>
             <ons-col width="40px"></ons-col>
@@ -36,4 +36,4 @@
     </div>
 
   </ons-page>
-</ons-navigator>   
+</ons-navigator>
