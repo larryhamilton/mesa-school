@@ -265,7 +265,7 @@
     $scope.lastFM = 'http://ws.audioscrobbler.com/2.0/?method=track.search&format=json&limit=1&api_key='+$scope.lastFMKey+'&track=';
 
 // ORIGINAL    $scope.radioURL = $scope.radioHost+':'+$scope.radioPort+'/;';
-    $scope.radioURL = '108.163.223.242:8139/stream';  
+    $scope.radioURL = 'http://108.163.223.242:8139/stream';  
     $scope.buttonIcon = '<span class="ion-ios-play"></span>';
 
     $scope.radioOptions = {
