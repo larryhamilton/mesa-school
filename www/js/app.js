@@ -568,13 +568,13 @@
     
 // ORIGINAL    $scope.radioHost = 'http://192.99.8.192'; // Replace this with your own radio stream URL
 // ORIGINAL    $scope.radioPort = '3536'; // Replace this with the port of your Radio Stream
-    $scope.radioHost = 'http://13.bteradio.com:9090/963xke'; // Replace this with your own radio stream URL
-    $scope.radioPort = '9090'; // Replace this with the port of your Radio Stream
+    $scope.radioHost = 'http://108.163.223.242:8139/stream'; // Replace this with your own radio stream URL
+    $scope.radioPort = '8139'; // Replace this with the port of your Radio Stream
     $scope.lastFMKey = 'e3343637ee292e488adf1e92bceb3a4f';
     $scope.lastFM = 'http://ws.audioscrobbler.com/2.0/?method=track.search&format=json&limit=1&api_key='+$scope.lastFMKey+'&track=';
 
 // ORIGINAL    $scope.radioURL = $scope.radioHost+':'+$scope.radioPort+'/;';
-    $scope.radioURL = 'http://13.bteradio.com:9090/963xke';  
+    $scope.radioURL = 'http://108.163.223.242:8139/stream';  
     $scope.buttonIcon = '<span class="ion-ios-play"></span>';
 
     $scope.radioOptions = {
@@ -584,7 +584,7 @@
 
     // Let's start the Shoutcast plugin to get the Song Name
     $.SHOUTcast({
-       host : '192.99.8.192', // Replace this with your own radio stream URL but remove the http
+       host : '108.163.223.242', // 192.99.8.192 Replace this with your own radio stream URL but remove the http
        port : $scope.radioPort,
        interval : 40000, // Refresh interval in miliseconds is equal to 40 seconds.
        stream: 1, // Replace with your stream, default is 1.
