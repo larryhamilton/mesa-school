@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.example.radio" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Radio Test</name>
+    <name>101.5 K-HITS</name>
     <description>
         This is a test of the Radio app plus pulling news articles.
     </description>
@@ -17,13 +17,5 @@
     <preference name="webviewbounce" value="false" />    
 
     <icon src="icon.png" />
-
-    <platform name="android">
-    <!-- you can use any density that exists in the Android project -->
-    <splash src="splash.png" density="port-hdpi"/>
-    <splash src="splash.png" density="port-ldpi"/>
-    <splash src="splash.png" density="port-mdpi"/>
-    <splash src="splash.png" density="port-xhdpi"/>
-    </platform>
 
 </widget>
