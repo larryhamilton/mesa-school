@@ -47,4 +47,5 @@
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="webviewbounce" value="false" />
+    <icon src="icon.png" />
 </widget>
