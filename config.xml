@@ -18,4 +18,12 @@
 
     <icon src="icon.png" />
 
+    <platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+    <splash src="splash.png" density="port-hdpi"/>
+    <splash src="splash.png" density="port-ldpi"/>
+    <splash src="splash.png" density="port-mdpi"/>
+    <splash src="splash.png" density="port-xhdpi"/>
+    </platform>
+
 </widget>
