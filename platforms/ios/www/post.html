@@ -10,7 +10,8 @@
     <div class="app-hero app-hero-image is-loading" images-loaded="imgLoadedEvents">
       <h2>{{ item.title | limitTo: 150 }}</h2>
       <div class="app-hero-overlay"></div>
-      <img ng-show="{{ item.thumbnail_images }}" ng-src="{{ item.thumbnail_images.thumbnail.url }}" class="app-hero-bg" img-cache>
+      <img ng-src="{{ item.thumbnail_images.full.url }}" class="app-hero-bg" img-cache>
+      <!-- <img ng-show="{{ item.thumbnail_images }}" ng-src="{{ item.thumbnail_images.thumbnail.url }}" class="app-hero-bg" img-cache> -->
     </div>
 
     <div class="app-page-content">
