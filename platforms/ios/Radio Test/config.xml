@@ -47,4 +47,6 @@
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="webviewbounce" value="false" />
+    <gap:splash src="splash.png" />
+    <icon src="icon.png" />
 </widget>
